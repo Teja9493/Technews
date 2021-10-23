@@ -1,0 +1,1 @@
+web: gunicorn Scrapenews.wsgi --log-file -
