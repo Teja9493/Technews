@@ -25,7 +25,7 @@ SECRET_KEY = 'pj(+=(i1xc&nh(-i1kywpqfbffl$amic#ahdxz)1s+4z8ax_az'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','']
+ALLOWED_HOSTS = ['127.0.0.1','scrapetechnews.herokuapp.com']
 
 
 # Application definition
