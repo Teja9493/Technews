@@ -1,1 +1,1 @@
-web: gunicorn scrapenews.wsgi --log-file -
+web: gunicorn scrapetechnews.wsgi --log-file -
