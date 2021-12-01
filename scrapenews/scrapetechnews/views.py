@@ -18,6 +18,10 @@ def technews(request):
 	y=request.POST.get("points")
 	if x==None:
 		j=f"https://news.ycombinator.com/news?p={s}"
+	if x<0:
+		s=3
+		j=f"https://news.ycombinator.com/news?p={s}"
+		
 
 	elif(x):
 		s=int(x)
